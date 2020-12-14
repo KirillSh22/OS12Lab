@@ -1,0 +1,13 @@
+1) touch errs.txt && python3 interacter.py 2> errs.txt
+   python3 interacter.py 2>> errs.txt
+
+2) touch file_names.txt
+   touch errs.txt
+   cat file_names.txt | python3 interacter.py 2>> errs.txt | less errs.txt
+В данном случае сообщения об ошибках будут выводиться в errs.txt без стирания;
+
+3) /home/alex/
+
+4) -q или --quiet
+
+5) Будет скачаны только jpg файлы
